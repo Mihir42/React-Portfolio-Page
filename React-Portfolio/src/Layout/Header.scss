@@ -1,3 +1,26 @@
-header {
-  color: blue;
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  border: 0px;
+}
+
+div.Header {
+  height: 60px;
+  background-color: black;
+}
+
+li {
+  margin-top: 15px;
+  background-color: black;
+  float: right;
+}
+
+a {
+  padding: 8px;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
 }
