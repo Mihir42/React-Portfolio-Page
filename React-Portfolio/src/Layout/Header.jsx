@@ -11,7 +11,7 @@ function Header() {
           <a href="">Contact</a>
         </li>
       </ul>
-      Balls
+      <div className="Header-Name"> Mihir Mistry</div>
     </div>
   );
 }
