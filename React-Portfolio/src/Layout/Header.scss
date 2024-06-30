@@ -7,12 +7,22 @@
 
 div.Header {
   height: 60px;
-  background-color: black;
+}
+
+div.Header-Name {
+  padding: 8px;
+  margin: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
 }
 
 li {
   margin-top: 15px;
-  background-color: black;
   float: right;
 }
 
@@ -21,6 +31,6 @@ a {
   margin: 10px;
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
 }
