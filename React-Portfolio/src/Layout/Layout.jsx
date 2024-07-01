@@ -8,7 +8,6 @@ function Layout(props) {
     <div className="centerpane">
       <Header />
       <main>{props.children}</main>
-      <Footer />
     </div>
   );
 }

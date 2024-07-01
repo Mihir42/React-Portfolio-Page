@@ -4,9 +4,34 @@ div.Title {
   left: 50px;
   width: 500px;
   padding: 30px;
+  height: 250px;
   font-weight: 550;
   font-size: 30px;
   color: white;
+  // border: 5px solid green;
+}
+
+@media only screen and (max-width: 451px) {
+  div.Title {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    max-width: 200px;
+    padding: 30px;
+    height: 250px;
+    font-weight: 550;
+    font-size: 30px;
+    // border: 5px solid green;
+  }
+
+  div.Description {
+    position: relative;
+    max-width: 300px;
+    top: 40px;
+    font-weight: 300;
+    font-size: 35px;
+    color: green;
+  }
 }
 
 div.Description {
@@ -14,4 +39,5 @@ div.Description {
   top: 40px;
   font-weight: 300;
   font-size: 35px;
+  color: white;
 }
