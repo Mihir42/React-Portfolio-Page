@@ -5,27 +5,13 @@
   border: 0px;
 }
 
-div.Header {
-  height: 60px;
-  width: 100%;
-}
-
-div.Header-Name {
+p.Header-Name {
   position: absolute;
   padding: 8px;
   margin: 10px;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
-}
-
-ul {
-  list-style-type: none;
-}
-
-li {
-  margin-top: 15px;
-  float: right;
 }
 
 a {
@@ -33,41 +19,51 @@ a {
   margin: 10px;
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 500;
+  float: right;
 }
 
-div.Menu {
-  display: none;
-  position: absolute;
-  top: 0.75rem;
-  right: 0.5rem;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 2.25rem;
-  height: 2rem;
-}
-
-span {
-  height: 0.4rem;
-  width: 100%;
-  background-color: #fff;
-  border-radius: 0.2rem;
-}
-
-@media (max-width: 450px) {
-  div.Menu {
+@media (max-width: 520px) {
+  nav.Header {
     display: flex;
-  }
-  div.Header {
     flex-direction: column;
-    align-items: start;
+    align-items: center;
   }
 
-  ul.List {
-    // display: none;
-    flex-direction: column;
-    width: 100%;
-    margin-bottom: 0.25rem;
+  p.Header-Name {
+    position: relative;
+    padding: 8px;
+    margin: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  a.Nav-Link {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  a.No-Link {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    display: none;
+  }
+
+  .Hamburger-Icon {
+    position: absolute;
+    bottom: 1px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    top: 0;
+    right: 0;
   }
 }
