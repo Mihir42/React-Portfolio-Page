@@ -71,8 +71,9 @@ button.Projects-Button {
 div.About-Me-Page-Container {
   display: flex;
   position: relative;
-  flex-direction: row;
+  flex-direction: column;
   top: 150px;
+  gap: 20px;
 }
 
 div.About-Me-Title {
@@ -81,4 +82,14 @@ div.About-Me-Title {
   color: white;
   font-size: 30px;
   font-weight: 550;
+}
+
+div.About-Me-Description {
+  position: relative;
+  margin: auto;
+  width: 60%;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center;
 }
