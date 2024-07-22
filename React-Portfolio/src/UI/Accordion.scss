@@ -1,0 +1,35 @@
+div.wrapper {
+  cursor: pointer;
+  border: 1px solid lightgrey;
+  padding: 10px 0 10px 10px;
+  margin: 10px;
+  width: 50%;
+}
+
+div.accordion {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.title {
+  width: 90%;
+}
+
+span.toggle {
+  align-self: flex-end;
+}
+
+div.additional-information {
+  padding: 10px 0 0 0;
+  max-height: 0;
+  max-width: 0;
+  overflow: hidden;
+}
+
+div.additional-information-show {
+  padding: 10px 0 0 0;
+  max-height: 1;
+  align-self: flex-start;
+}
+div.basement {
+}

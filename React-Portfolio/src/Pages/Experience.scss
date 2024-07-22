@@ -1,0 +1,73 @@
+div.Experience-Container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  top: 250px;
+}
+
+div.Experience-Title {
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  font-size: 30px;
+  font-weight: 550;
+}
+
+div.Experience-Description {
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+div.Experience-Sub-Container {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+div.Experience-Left-Container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+  height: 100%;
+}
+
+div.Experience-Right-Container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+  height: 100%;
+}
+
+div.Accordion-Wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+img.Cat-Bread {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+
+@media (max-width: 640px) {
+  div.Experience-Sub-Container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    align-items: center;
+  }
+}
