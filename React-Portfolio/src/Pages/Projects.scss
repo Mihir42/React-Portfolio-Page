@@ -1,0 +1,60 @@
+div.Projects-Wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  padding: 10px;
+  margin: auto;
+  width: 75%;
+  height: 100%;
+  top: 350px;
+  border-radius: 5px;
+  color: black;
+  background-color: white;
+}
+
+div.Projects-title {
+  margin: auto;
+  font-size: 30px;
+  font-weight: 550;
+  background-color: white;
+}
+
+div.Projects-Description {
+  margin: auto;
+  font-size: 15px;
+  font-weight: 300;
+  background-color: white;
+}
+
+div.Card-Holder {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  width: 100%;
+  background-color: white;
+}
+
+svg.BriefCase-Icon {
+  display: block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  margin: auto;
+  top: 35%;
+  background-color: #868786;
+  color: white;
+}
+
+@media (max-width: 640px) {
+  div.Card-Holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    background-color: white;
+  }
+}

@@ -3,6 +3,7 @@ import AboutMe from "./AboutMe";
 import Experience from "./Experience";
 import "./Home.scss";
 import Portfolio from "./Portfolio";
+import Projects from "./Projects";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <Portfolio />
       <AboutMe />
       <Experience />
+      <Projects />
     </Layout>
   );
 }
