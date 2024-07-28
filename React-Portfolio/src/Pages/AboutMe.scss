@@ -2,7 +2,7 @@ div.About-Me-Page-Container {
   display: flex;
   position: relative;
   flex-direction: column;
-  top: 150px;
+  top: 100px;
   gap: 20px;
 }
 
@@ -10,7 +10,7 @@ div.About-Me-Title {
   position: relative;
   margin: auto;
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 550;
 }
 
@@ -19,7 +19,7 @@ div.About-Me-Description {
   margin: auto;
   width: 60%;
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 300;
   text-align: center;
 }
