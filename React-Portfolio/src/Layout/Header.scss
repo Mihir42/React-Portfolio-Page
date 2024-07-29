@@ -16,9 +16,11 @@ p.Header-Name {
   position: relative;
   padding: 8px;
   margin: 10px;
-  color: white;
-  font-size: 15px;
-  font-weight: 500;
+  color: #cf853a;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 26px;
+  text-transform: uppercase;
   flex: 1;
 }
 
@@ -27,17 +29,75 @@ a {
   padding: 8px;
   margin: 10px;
   text-decoration: none;
-  color: white;
-  font-size: 15px;
+  color: #fefefa;
+  font-size: 14px;
   font-weight: 500;
+  line-height: 21px;
+  text-transform: uppercase;
 }
 
-.Linkedin-Icon {
-  position: relative;
+button.Yes-Button {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 8px;
+  margin: 10px;
+  width: 150px;
+  height: 41px;
+  border: 0;
+  border-radius: 100000px;
+  box-sizing: border-box;
+  background-color: #cf853a;
+  color: #000000;
+  font-size: 14px;
+  font-family: "Roboto", "DM Sans";
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+button.No-Button {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 8px;
+  margin: 10px;
+  width: 150px;
+  height: 41px;
+  border: 0;
+  border-radius: 100000px;
+  box-sizing: border-box;
+  background-color: #cf853a;
+  color: #000000;
+  font-size: 14px;
+  font-family: "Roboto", "DM Sans";
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+svg.Right-Arrow {
   height: 25px;
   width: 25px;
+  background-color: #cf853a;
+  fill: #000000;
+}
+
+.Hamburger-Icon {
+  display: none;
+  position: absolute;
+  bottom: 1px;
+  height: 50px;
   color: white;
-  float: right;
+  cursor: pointer;
+  top: 0;
+  right: 0;
 }
 
 @media (max-width: 640px) {
@@ -51,9 +111,11 @@ a {
     position: relative;
     padding: 8px;
     margin: 10px;
-    color: white;
-    font-size: 15px;
-    font-weight: 500;
+    color: #cf853a;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 26px;
+    text-transform: uppercase;
   }
 
   a.Nav-Link {
@@ -73,11 +135,58 @@ a {
     display: none;
   }
 
+  button.Yes-Button {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 8px;
+    margin: 10px;
+    width: 150px;
+    height: 41px;
+    border: 0;
+    border-radius: 100000px;
+    box-sizing: border-box;
+    background-color: #cf853a;
+    color: #000000;
+    font-size: 14px;
+    font-family: "Roboto", "DM Sans";
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+    outline: none;
+  }
+
+  button.No-Button {
+    display: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 8px;
+    margin: 10px;
+    width: 150px;
+    height: 41px;
+    border: 0;
+    border-radius: 100000px;
+    box-sizing: border-box;
+    background-color: #cf853a;
+    color: #000000;
+    font-size: 14px;
+    font-family: "Roboto", "DM Sans";
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+    outline: none;
+  }
+
   .Hamburger-Icon {
+    display: block;
     position: absolute;
     bottom: 1px;
     height: 50px;
-    color: white;
+    color: #cf853a;
     cursor: pointer;
     top: 0;
     right: 0;
