@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa6";
+import { BiSolidRightTopArrowCircle } from "react-icons/bi";
 import "./Header.scss";
 
 function Header() {
@@ -22,21 +21,9 @@ function Header() {
       <a className={openHamburger ? "Nav-Link" : "No-Link"} href="/">
         Projects
       </a>
-      <a className={openHamburger ? "Nav-Link" : "No-Link"} href="/">
-        Contact
-      </a>
-      <a
-        className={openHamburger ? "Nav-Link" : "No-Link"}
-        href="https://www.linkedin.com/in/mihir-mistry-318b0a18b/"
-      >
-        <FaLinkedin />
-      </a>
-      <a
-        className={openHamburger ? "Nav-Link" : "No-Link"}
-        href="https://Github.com/Mihir42"
-      >
-        <FaGithub />
-      </a>
+      <button className={openHamburger ? "Yes-Button" : "No-Button"}>
+        Contact Me <BiSolidRightTopArrowCircle className="Right-Arrow" />
+      </button>
 
       <RxHamburgerMenu className="Hamburger-Icon" onClick={handleHamburger} />
     </nav>
