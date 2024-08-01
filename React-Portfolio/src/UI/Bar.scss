@@ -1,0 +1,47 @@
+div.Bar-Wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin: auto;
+  width: 1300px;
+  height: 93px;
+  border-radius: 20px;
+  background-color: #003d37;
+}
+
+div.Bar-Item {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  gap: 20px;
+}
+
+h1.Object-Number {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 65px;
+  color: #fdfdfa;
+}
+
+h3.Object-Description {
+  width: 110px;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 700;
+  color: #cf853a;
+}
+
+span.Object-Icon {
+  margin: auto;
+  font-size: 30px;
+  color: #fdfdfa;
+}
+
+@media (max-width: 640px) {
+  div.Bar-Wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+  }
+}

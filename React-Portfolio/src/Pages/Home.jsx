@@ -9,6 +9,7 @@ function Home() {
   return (
     <Layout>
       <Portfolio />
+      <AboutMe />
     </Layout>
   );
 }
