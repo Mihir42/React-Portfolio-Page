@@ -14,21 +14,22 @@ const Portfolio = () => {
             I'm a recent computer science graduate and software developer
             specialising in both front-end and back-end developer
           </p>
-          <p className="Description-Line"> In my next role I'm looking for:</p>
           <p className="Description-Line">
-            🚀 An awesome team - where I can learn from others <br />
-            💪 A challenge - so I can grow my skills <br />
-            ⭐️ A great product – so I can be proud of the place I work
+            I'm looking for an awesome team and a challenge where I can learn
+            and grow 🚀
           </p>
-        </div>
-        <div className="Buttons-Links">
-          <button className="Projects-Button" type="button">
-            EXPLORE MY WORK 🚀
-          </button>
-          <a className="Experience-Link">
-            Review my Experience 👀
-            <FaArrowRight />
-          </a>
+          <p className="Description-Line">
+            Check out my portfolio and experience to learn more about me.
+          </p>
+          <div className="Buttons-Links">
+            <button className="Projects-Button" type="button">
+              EXPLORE MY WORK 🚀
+            </button>
+            <a className="Experience-Link">
+              Review my Experience 👀
+              <FaArrowRight />
+            </a>
+          </div>
         </div>
       </div>
       <div className="Container-Right">
