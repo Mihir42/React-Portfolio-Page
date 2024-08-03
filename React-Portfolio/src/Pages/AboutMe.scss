@@ -1,26 +1,88 @@
-div.About-Me-Page-Container {
+div.About-Me-Bar-Container {
   display: flex;
   position: relative;
   flex-direction: column;
-  top: 10px;
+  padding: 40px;
   gap: 20px;
-  background-color: #fefefa;
+  background-color: #faf0ca;
 }
 
-div.About-Me-Title {
-  position: relative;
-  margin: auto;
-  color: white;
-  font-size: 40px;
-  font-weight: 550;
+div.About-Me-Page-Container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
 }
 
-div.About-Me-Description {
+div.About-Me-Page-Left-Container {
+  padding: 20px;
+  width: 50%;
+}
+
+div.About-Me-Page-Right-Container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 50%;
+  height: 100%;
+}
+
+h1.About-Me-Title {
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #05433e;
+}
+
+h2.About-Me-Small-Title {
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  font-family: "DM Sans";
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #05433e;
+}
+
+P.About-Me-Paragraph {
   position: relative;
-  margin: auto;
-  width: 60%;
-  color: white;
-  font-size: 20px;
-  font-weight: 300;
+  padding: 10px;
+  margin: 10px;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 500;
+  color: #05433e;
+}
+
+h3.About-Me-Skill {
+  padding: 5px;
+  margin: 10px;
+  width: 155px;
+  height: 34px;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 100px;
+  outline: none;
   text-align: center;
+  font-size: 16px;
+  font-family: "DM Sans";
+  font-weight: 500;
+  background-color: #05433e;
+  color: #faf0ca;
+}
+
+P.Certfications {
+  position: relative;
+  padding: 10px;
+  left: 10px;
+  bottom: 20px;
+  font-size: 16px;
+  font-family: "DM Sans";
+  font-weight: 500;
+  color: #000000;
 }
