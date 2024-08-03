@@ -24,12 +24,12 @@ div.Container-Right {
 
 div.Small-Title {
   position: relative;
-  padding: 10px;
+  padding: 20px;
   margin: 10px;
   top: 45px;
   left: 45px;
   background-color: #05433e;
-  color: #cf853a;
+  color: #faf0ca;
   font-size: 30px;
   font-family: "Roboto";
   font-weight: 900;
@@ -40,13 +40,13 @@ div.Small-Title {
 
 div.Title {
   position: relative;
-  padding: 10px;
+  padding: 20px;
   margin: 10px;
   top: 5px;
   left: 45px;
   background-color: #05433e;
   color: #fefefa;
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 900;
   line-height: 78px;
   text-transform: uppercase;
@@ -54,10 +54,10 @@ div.Title {
 
 div.Description {
   position: relative;
-  padding: 10px;
+  padding: 20px;
   margin: 10px;
   left: 45px;
-  bottom: 20px;
+  bottom: 50px;
   background-color: #05433e;
   border-radius: 26px;
 }
@@ -110,7 +110,7 @@ button.Projects-Button {
   font-size: 16px;
   text-transform: uppercase;
   outline: none;
-  background-color: #cf853a;
+  background-color: #faf0ca;
   color: #000000;
 }
 
