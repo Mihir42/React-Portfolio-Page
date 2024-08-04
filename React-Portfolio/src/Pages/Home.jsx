@@ -1,6 +1,7 @@
 import Layout from "../Layout/Layout";
 import AboutMe from "./AboutMe";
 import Experience from "./Experience";
+import ExploreMyWork from "./ExploreMyWork";
 import "./Home.scss";
 import Portfolio from "./Portfolio";
 import Projects from "./Projects";
@@ -10,6 +11,7 @@ function Home() {
     <Layout>
       <Portfolio />
       <AboutMe />
+      <ExploreMyWork />
     </Layout>
   );
 }
