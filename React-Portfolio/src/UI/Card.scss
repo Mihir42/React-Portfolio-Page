@@ -1,0 +1,113 @@
+// You messed up the css so bad maybe reset it
+
+div.Card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  height: auto;
+  border-radius: 26px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.12);
+  background-color: #faf0ca;
+}
+
+img.Card-Image {
+  position: relative;
+  padding: 1px;
+  margin: 1px;
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 26px;
+  color: #05433e;
+  filter: brightness(1.28) saturate(100%) invert(1%) sepia(16%) saturate(500%)
+    hue-rotate(128deg) brightness(40%) contrast(100%);
+}
+
+P.Card-HashTag {
+  position: absolute;
+  cursor: pointer;
+  padding: 5px;
+  margin: 8px;
+  width: 108px;
+  height: 26px;
+  border: 0;
+  clear: right;
+  box-sizing: border-box;
+  border-radius: 100px;
+  background-color: #faf0ca;
+  color: #05433e;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 700;
+  align-self: flex-end;
+}
+
+h2.Card-ImageTitle {
+  position: absolute;
+  width: 80%;
+  height: auto;
+  padding: 5px;
+  margin: 10px;
+  top: 40px;
+  left: 0;
+  font-size: 36px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #faf0ca;
+}
+
+h2.Card-Title {
+  position: relative;
+  padding: 2px;
+  margin: 10px;
+  font-size: 30px;
+  font-family: "DM Sans";
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #003d37;
+}
+
+P.Card-Description {
+  padding: 2px;
+  margin: 10px;
+  position: relative;
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-weight: 500;
+  color: #003d37;
+}
+
+button.Card-Button {
+  position: relative;
+  cursor: pointer;
+  padding: 0 0 8px 0;
+  margin: 0px;
+  width: 169px;
+  height: 36px;
+  box-sizing: border-box;
+  border-radius: 100000px;
+  font-size: 14px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  line-height: 16px;
+  background-color: #cf853a;
+  color: #000000;
+  box-shadow: 0px 0px 10px rgba(3, 3, 3, 0.1);
+  align-self: flex-end;
+}
+
+svg.Right-ArrowIcon {
+  position: relative;
+  top: 8px;
+  left: 8px;
+  height: 25px;
+  width: 25px;
+  background-color: #cf853a;
+  fill: #000000;
+}
