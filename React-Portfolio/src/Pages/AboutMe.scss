@@ -86,3 +86,65 @@ P.Certfications {
   font-weight: 500;
   color: #000000;
 }
+
+@media (max-width: 640px) {
+  div.About-Me-Page-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  div.About-Me-Page-Left-Container {
+    padding: 0px;
+    width: 100%;
+  }
+
+  h1.About-Me-Title {
+    padding: 0px;
+    margin: auto;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #05433e;
+  }
+
+  P.About-Me-Paragraph {
+    position: relative;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 500;
+    color: #05433e;
+  }
+
+  div.About-Me-Page-Right-Container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+  }
+
+  h3.About-Me-Skill {
+    margin: auto;
+  }
+
+  h2.About-Me-Small-Title {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  P.About-Me-Paragraph {
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 500;
+    color: #05433e;
+  }
+}
