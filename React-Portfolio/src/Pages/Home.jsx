@@ -5,6 +5,7 @@ import ExploreMyWork from "./ExploreMyWork";
 import "./Home.scss";
 import Portfolio from "./Portfolio";
 import Projects from "./Projects";
+import Recomendations from "./Recomendations";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Portfolio />
       <AboutMe />
       <ExploreMyWork />
+      <Recomendations />
     </Layout>
   );
 }

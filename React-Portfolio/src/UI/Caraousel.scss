@@ -1,0 +1,68 @@
+div.Caraousel-Container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+  width: 80%;
+  height: 100%;
+  justify-content: center;
+  background-color: #05433e;
+  border-radius: 26px;
+}
+
+div.Caraousel-Quote-Icon {
+  position: relative;
+  padding: 15px;
+  margin: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+p.Caraousel-Description {
+  margin: auto;
+  width: 80%;
+  color: #faf0ca;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+button.Caraousel-Right-Arrow {
+  cursor: pointer;
+  padding: 10px;
+  float: right;
+  font-size: 40px;
+  color: #fdfff7;
+  background-color: #05433e;
+}
+
+button.Caraousel-Left-Arrow {
+  cursor: pointer;
+  padding: 10px;
+  float: left;
+  font-size: 40px;
+  color: #fdfff7;
+  background-color: #05433e;
+}
+
+p.Caraousel-Person-Name {
+  padding: 2px;
+  margin: 2px;
+  font-size: 14px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  text-align: center;
+  color: #faf0ca;
+}
+
+p.Caraousel-Job-Title {
+  padding: 10px;
+  margin-bottom: 50px;
+  color: #faf0ca;
+  font-size: 14px;
+  font-weight: 280;
+  font-family: "DM Sans";
+  text-align: center;
+}
