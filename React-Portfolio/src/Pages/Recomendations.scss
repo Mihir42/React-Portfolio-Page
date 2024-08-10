@@ -1,0 +1,19 @@
+div.Recomendations-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf0ca;
+}
+
+h1.Recomendations-Title {
+  padding: 20px;
+  margin: 20px;
+  width: auto;
+  height: 100%;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #003d37;
+}
