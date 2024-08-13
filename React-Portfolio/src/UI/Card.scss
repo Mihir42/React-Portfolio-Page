@@ -24,15 +24,15 @@ img.Card-Image {
   margin-right: auto;
   border-radius: 26px;
   color: #05433e;
-  filter: brightness(1.28) saturate(100%) invert(1%) sepia(16%) saturate(500%)
-    hue-rotate(128deg) brightness(40%) contrast(100%);
+  filter: brightness(1.28) saturate(100%) invert(1%) sepia(16%) saturate(30%)
+    brightness(20%) contrast(100%);
 }
 
 P.Card-HashTag {
   position: absolute;
   cursor: pointer;
-  padding: 5px;
-  margin: 8px;
+  padding: 2px;
+  margin: 12px;
   width: 108px;
   height: 26px;
   border: 0;
@@ -44,6 +44,7 @@ P.Card-HashTag {
   font-family: "DM Sans";
   font-size: 16px;
   font-weight: 700;
+  text-align: center;
   align-self: flex-end;
 }
 
@@ -65,7 +66,7 @@ h2.Card-ImageTitle {
 h2.Card-Title {
   position: relative;
   padding: 2px;
-  margin: 10px;
+  margin: 2px;
   font-size: 30px;
   font-family: "DM Sans";
   font-weight: 500;
@@ -74,8 +75,8 @@ h2.Card-Title {
 }
 
 P.Card-Description {
-  padding: 2px;
-  margin: 10px;
+  padding: 10px;
+  margin: 0 0 30px 0; // Forgive me father for I have sinned
   position: relative;
   font-family: "DM Sans";
   font-size: 14px;
@@ -84,22 +85,23 @@ P.Card-Description {
 }
 
 button.Card-Button {
-  position: relative;
+  position: absolute;
+
   cursor: pointer;
   padding: 0 0 8px 0;
-  margin: 0px;
+  margin: 10px;
   width: 169px;
   height: 36px;
+  bottom: 0;
+  right: 0;
   box-sizing: border-box;
   border-radius: 100000px;
   font-size: 14px;
   font-family: "DM Sans";
   font-weight: 700;
-  line-height: 16px;
   background-color: #cf853a;
   color: #000000;
   box-shadow: 0px 0px 10px rgba(3, 3, 3, 0.1);
-  align-self: flex-end;
 }
 
 svg.Right-ArrowIcon {

@@ -78,6 +78,7 @@ img.Profile-Picture {
   width: 70%;
   height: 70%;
   top: 50px;
+  left: 15px;
   border-radius: 26px;
 }
 
@@ -85,11 +86,9 @@ div.Buttons-Links {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  position: relative;
-  top: 20px;
-  right: 20px;
   padding: 10px;
   margin: 10px;
+  text-align: left;
   background-color: #05433e;
 }
 

@@ -9,11 +9,17 @@ div.Recomendations-Container {
 h1.Recomendations-Title {
   padding: 20px;
   margin: 20px;
-  width: auto;
-  height: 100%;
+  min-width: 0;
+  min-height: 0;
   font-size: 48px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   color: #003d37;
+}
+
+@media (max-width: 640px) {
+  h1.Recomendations-Title {
+    font-size: 30px;
+  }
 }
