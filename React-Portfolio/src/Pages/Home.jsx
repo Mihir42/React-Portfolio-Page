@@ -1,5 +1,7 @@
+import Footer from "../Layout/Footer";
 import Layout from "../Layout/Layout";
 import AboutMe from "./AboutMe";
+import ContactMe from "./ContactMe";
 import Experience from "./Experience";
 import ExploreMyWork from "./ExploreMyWork";
 import "./Home.scss";
@@ -14,6 +16,8 @@ function Home() {
       <AboutMe />
       <ExploreMyWork />
       <Recomendations />
+      <ContactMe />
+      <Footer />
     </Layout>
   );
 }

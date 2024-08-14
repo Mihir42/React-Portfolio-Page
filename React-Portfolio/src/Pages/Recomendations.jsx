@@ -53,7 +53,7 @@ const Recomendations = () => {
   return (
     <div className="Recomendations-Container">
       <h1 className="Recomendations-Title">Recomendations </h1>
-      <Caraousel recomendationsList={RecomendationsList}></Caraousel>;
+      <Caraousel recomendationsList={RecomendationsList}></Caraousel>
     </div>
   );
 };
