@@ -1,0 +1,71 @@
+div.SkillsAndExperience-Wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 10px;
+  background-color: #003d37;
+}
+
+div.Info-Cards {
+  display: flex;
+  flex-direction: row;
+}
+
+div.Slim-Cards-Left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+  border-radius: 26px;
+  background-color: #05433e;
+}
+
+div.Slim-Cards-Right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+h1.SkillsAndExperience-Title {
+  padding: 10px;
+  margin: 10px;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #faf0ca;
+}
+
+p.SkillsAndExperience-Description {
+  padding: 0 10px 10px 10px;
+  margin: 0 10px 10px 10px;
+  font-size: 18px;
+  font-family: "DM Sans";
+  font-weight: 500;
+  color: #faf0ca;
+}
+
+h3.Slim-Title {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "DM Sans";
+  text-transform: uppercase;
+  color: #faf0ca;
+}
+
+h1.Slim-Title-Big {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "DM Sans";
+  text-transform: capitalize;
+  color: #cf853a;
+}
+
+p.Slim-Title-Small {
+  font-size: 14px;
+  font-weight: 250;
+  font-family: "DM Sans";
+  text-transform: capitalize;
+  color: #faf0ca;
+}
