@@ -1,6 +1,7 @@
 import Footer from "../Layout/Footer";
 import Layout from "../Layout/Layout";
 import AboutMe from "./AboutMe";
+import SkillsAndExperience from "./SkillsAndExperience";
 import ContactMe from "./ContactMe";
 import Experience from "./Experience";
 import ExploreMyWork from "./ExploreMyWork";
@@ -14,6 +15,7 @@ function Home() {
     <Layout>
       <Portfolio />
       <AboutMe />
+      <SkillsAndExperience />
       <ExploreMyWork />
       <Recomendations />
       <ContactMe />
