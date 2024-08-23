@@ -68,7 +68,7 @@ p.Description-Line {
   font-family: "DM sans";
   font-size: 20px;
   font-weight: 400;
-  margin-top: 20px;
+  margin: 20px 0 20px 0;
 }
 
 img.Profile-Picture {
@@ -86,6 +86,10 @@ div.Buttons-Links {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  justify-content: left;
+  align-items: left;
+  position: relative;
+  top: 25px;
   padding: 10px;
   margin: 10px;
   text-align: left;
