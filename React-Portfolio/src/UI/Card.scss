@@ -86,16 +86,15 @@ P.Card-Description {
 
 button.Card-Button {
   position: absolute;
-
   cursor: pointer;
-  padding: 0 0 8px 0;
+  padding: 0px;
   margin: 10px;
   width: 169px;
   height: 36px;
   bottom: 0;
   right: 0;
   box-sizing: border-box;
-  border-radius: 100000px;
+  border-radius: 26px;
   font-size: 14px;
   font-family: "DM Sans";
   font-weight: 700;
@@ -106,10 +105,10 @@ button.Card-Button {
 
 svg.Right-ArrowIcon {
   position: relative;
-  top: 8px;
+  top: 4px;
   left: 8px;
   height: 25px;
   width: 25px;
-  background-color: #cf853a;
+  background-color: none;
   fill: #000000;
 }

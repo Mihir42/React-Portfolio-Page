@@ -1,0 +1,48 @@
+div.Slim-Cards-Wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+  height: 100%;
+  background-color: #05433e;
+  border-radius: 26px;
+}
+
+h3.Small-Title {
+  padding: 5px;
+  margin: 5px;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-weight: 700;
+  word-spacing: 5px;
+  text-transform: uppercase;
+  color: #faf0ca;
+}
+
+h2.Main-Title {
+  padding: 5px;
+  margin: 5px;
+  font-family: "DM Sans";
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #cf853a;
+}
+
+p.Sub-Description {
+  padding: 5px;
+  margin: 5px;
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #faf0ca;
+}
+
+@media (max-width: 640px) {
+  div.Slim-Cards-Wrapper {
+    width: 92%;
+  }
+}

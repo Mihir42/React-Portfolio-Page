@@ -1,0 +1,97 @@
+div.ExperienceCard-Wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  width: 69%;
+  height: 100%;
+  border-radius: 26px;
+  background-color: #faf0ca;
+}
+
+div.Experience-Card-Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+div.Experience-Main-Card {
+  width: 280px;
+}
+
+div.Experience-Small-Card {
+  padding: 10px;
+  margin: 10px;
+  background-color: #cf853a;
+  border-radius: 16px;
+}
+
+div.Experience-Description-Card {
+  padding: 10px;
+  margin: 10px;
+  background-color: #e6ddbd;
+  border-radius: 16px;
+}
+
+h2.ExperiencedCard-Title {
+  padding: 5px;
+  margin: 5px;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #003d37;
+}
+
+h2.Small-Card-Title {
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #003d37;
+}
+
+h3.Small-Card-SubTitle {
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-weight: 700;
+  color: #faf0ca;
+  text-transform: uppercase;
+}
+
+h3.Experience-Description-Title {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #003d37;
+}
+
+p.Experience-Description {
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-weight: 420;
+  color: #003d37;
+}
+
+ul {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #003d37;
+}
+
+li {
+  margin-left: 10px;
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-weight: 420;
+  text-transform: none;
+  color: #003d37;
+}
+
+svg {
+  position: relative;
+  top: 2px;
+}
