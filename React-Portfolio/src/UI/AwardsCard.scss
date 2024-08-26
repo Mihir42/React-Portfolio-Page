@@ -1,0 +1,63 @@
+div.AwardsCard-Wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+  border-radius: 26px;
+  background-color: #cf853a;
+}
+
+div.AwardsCard-Left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 40%;
+}
+
+div.AwardsCard-Right {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+h3.AwardsCard-Small-Title {
+  padding: 5px;
+  margin: 5px;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-weight: 700;
+  word-spacing: 5px;
+  text-transform: uppercase;
+  color: #faf0ca;
+}
+
+h2.AwardsCard-Main-Title {
+  padding: 5px;
+  margin: 5px;
+  font-family: "DM Sans";
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #003d37;
+}
+
+p.Description {
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-weight: 500;
+  color: #003d37;
+}
+
+svg {
+  margin-top: 6px;
+}
+
+@media (max-width: 640px) {
+  div.AwardsCard-Wrapper {
+    width: 92%;
+  }
+}
