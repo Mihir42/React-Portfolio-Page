@@ -21,15 +21,15 @@ const SkillsAndExperience = () => {
         <EducationCard
           icon={<FaUserGraduate />}
           smallTitle={"Education"}
-          mainTitle={"Computer Science BSC (Hons)"}
+          mainTitle={"Computer Science BSC (Hons) First Class"}
           subDescription={"Kingston University London | 2021 - 2024"}
         />
         <AwardsCard
           icon={<FaTrophy />}
           smallTitle={"Awards"}
-          mainTitle={"1st Place"}
+          mainTitle={"Hackathon 1st Place"}
           description={
-            "My team placed first out of XXX participants in the Kingston University Hackthon sponsored by Cybertrends for our solution: How AI can improve User Experience of Website Privacy Policies."
+            "Hackathon hosted by Cybertrends, worked in a team of 4 to develop a solution on how AI could imporve the user experience of viewing a website privacy policy."
           }
         />
       </div>

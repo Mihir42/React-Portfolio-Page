@@ -11,12 +11,13 @@ const Portfolio = () => {
         <div className="Title">Full-stack developer</div>
         <div className="Description">
           <p className="Description-Line">
-            I'm a recent computer science graduate and software developer
-            specialising in both front-end and back-end developer
+            Ello, I am a recent Computer Science graduate specialising in
+            software engineering, capable of developing front end and back end
+            systems.
           </p>
           <p className="Description-Line">
-            I'm looking for an awesome team and a challenge where I can learn
-            and grow 🚀
+            Now I am looking to broaden my software knowledge by working in an
+            awesome team and challenge myself to learn and grow 🚀
           </p>
           <p className="Description-Line">
             Check out my portfolio and experience to learn more about me.
