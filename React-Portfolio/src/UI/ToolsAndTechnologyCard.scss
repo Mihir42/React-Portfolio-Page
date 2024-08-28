@@ -10,6 +10,14 @@ div.ToolsAndTechnology-Wrapper {
   background-color: #030303;
 }
 
+div.ToolsAndTechnology-Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px;
+}
+
 h2.ToolsAndTechnology-Title {
   font-family: "DM Sans";
   font-size: 18px;
@@ -23,6 +31,21 @@ p.ToolsAndTechnology-Description {
   font-size: 14px;
   font-weight: 480;
   color: #faf0ca;
+}
+
+img.Image-Icon {
+  width: 80px;
+  height: 46px;
+  filter: brightness(0) saturate(100%) invert(91%) sepia(5%) saturate(1302%)
+    hue-rotate(350deg) brightness(107%) contrast(96%);
+}
+
+img.VSCode-Icon {
+  width: 50px;
+  height: 46px;
+  margin-left: 10px;
+  filter: brightness(0) saturate(100%) invert(91%) sepia(5%) saturate(1302%)
+    hue-rotate(350deg) brightness(107%) contrast(96%);
 }
 
 svg.Icon-CPU {
