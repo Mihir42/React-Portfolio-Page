@@ -53,7 +53,7 @@ h2.Card-ImageTitle {
   width: 80%;
   height: auto;
   padding: 5px;
-  margin: 10px;
+  margin: 10px 10px 10px 20px;
   top: 40px;
   left: 0;
   font-size: 36px;
@@ -103,12 +103,27 @@ button.Card-Button {
   box-shadow: 0px 0px 10px rgba(3, 3, 3, 0.1);
 }
 
+p.Button-Text {
+  position: relative;
+  bottom: 5px;
+  font-size: 14px;
+  font-family: "DM Sans";
+  font-weight: 700;
+  color: #000000;
+}
+
 svg.Right-ArrowIcon {
   position: relative;
-  top: 4px;
+  top: 8px;
   left: 8px;
   height: 25px;
   width: 25px;
   background-color: none;
   fill: #000000;
+}
+
+@media (max-width: 640px) {
+  h2.Card-ImageTitle {
+    font-size: 30px;
+  }
 }

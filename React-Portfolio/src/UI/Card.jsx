@@ -12,8 +12,10 @@ const Card = (props) => {
       <h2 className="Card-Title">{props.title}</h2>
       <p className="Card-Description">{props.description}</p>
       <button className="Card-Button">
-        View case study
-        <BiSolidRightTopArrowCircle className="Right-ArrowIcon" />
+        <p className="Button-Text">
+          View case study{" "}
+          <BiSolidRightTopArrowCircle className="Right-ArrowIcon" />
+        </p>
       </button>
     </div>
   );

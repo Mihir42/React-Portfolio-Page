@@ -9,17 +9,22 @@ div.SkillsAndExperience-Wrapper {
 div.SkillsAndExperience-Cards {
   display: flex;
   flex-direction: row;
+  margin: auto;
+  width: 94%;
 }
 
 div.SkillsAndExperience-ExperienceAndTools-Wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 h1.SkillsAndExperience-Title {
+  position: relative;
   padding: 10px;
   margin: 10px;
+  left: 38px;
   font-size: 48px;
   font-weight: 700;
   text-transform: uppercase;
@@ -27,8 +32,11 @@ h1.SkillsAndExperience-Title {
 }
 
 p.SkillsAndExperience-Description {
+  position: relative;
+  left: 38px;
   padding: 0 10px 10px 10px;
   margin: 0 10px 10px 10px;
+  width: 92%;
   font-size: 18px;
   font-family: "DM Sans";
   font-weight: 500;
@@ -41,5 +49,22 @@ p.SkillsAndExperience-Description {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  div.SkillsAndExperience-ExperienceAndTools-Wrapper {
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1.SkillsAndExperience-Title {
+    position: relative;
+    left: 0px;
+    text-align: center;
+  }
+
+  p.SkillsAndExperience-Description {
+    position: relative;
+    left: 0px;
+    text-align: center;
   }
 }
