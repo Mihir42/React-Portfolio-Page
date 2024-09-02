@@ -1,9 +1,10 @@
 div.ExperienceCard-Wrapper {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   padding: 10px;
   margin: 10px;
-  width: 69%;
+  width: 65%;
   height: 100%;
   border-radius: 26px;
   background-color: #faf0ca;
@@ -16,7 +17,7 @@ div.Experience-Card-Container {
 }
 
 div.Experience-Main-Card {
-  width: 280px;
+  flex: 1;
 }
 
 div.Experience-Small-Card {
@@ -94,4 +95,15 @@ li {
 svg {
   position: relative;
   top: 2px;
+}
+
+@media (max-width: 640px) {
+  div.ExperienceCard-Wrapper {
+    width: 85%;
+  }
+
+  div.Experience-Main-Card {
+    flex: none;
+    width: 100%;
+  }
 }

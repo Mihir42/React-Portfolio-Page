@@ -1,5 +1,4 @@
 import Accordion from "../UI/Accordion";
-import CatBread from "../assets/Cat-In-Bread.jpg";
 import "./Experience.scss";
 
 const Experience = () => {

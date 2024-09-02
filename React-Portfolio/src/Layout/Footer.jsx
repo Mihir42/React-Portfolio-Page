@@ -53,6 +53,9 @@ const Footer = () => {
           <a className="Footer-Link" href="/">
             Portfolio Website
           </a>
+          <a className="Footer-Link" href="/">
+            Help
+          </a>
         </div>
       </div>
     </div>

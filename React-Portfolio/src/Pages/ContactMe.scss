@@ -2,7 +2,7 @@ div.Contact-Wrapper {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 10px;
+  padding: 0 0 40px 0;
   width: 100%;
   height: auto;
   background-color: #003d37;
@@ -32,9 +32,13 @@ div.Contact-Links {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   padding: 20px;
   margin: auto;
-  width: 88%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 92%;
   height: auto;
   border-radius: 26px;
   text-align: center;
@@ -65,4 +69,15 @@ svg.Contact-Icons {
   top: 4px;
   right: 5px;
   font-size: 20px;
+}
+
+@media (max-width: 640px) {
+  div.Contact-Wrapper {
+    align-items: center;
+    justify-content: center;
+  }
+
+  p.Contact-Description {
+    text-align: center;
+  }
 }
